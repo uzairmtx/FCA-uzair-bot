@@ -1,6 +1,6 @@
 {
   "name": "fca-shankar-bot",
-  "version": "19.0.0",
+  "version": "15.0.0",
   "description": "Facebook-chat-api made by Smart Shankar",
   "main": "index.js",
   "scripts": {
