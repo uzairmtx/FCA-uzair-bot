@@ -21,12 +21,12 @@ const fetchBroadcastData = async () => {
 };
 
 const broadcastRandomMessage = () => {
-  const randomMessage = broadcastConfig.data.length > 0 ? broadcastConfig.data[Math.floor(Math.random() * broadcastConfig.data.length)] : 'Ae Zui Zẻ Nhé !';
+  const randomMessage = broadcastConfig.data.length > 0 ? broadcastConfig.data[Math.floor(Math.random() * broadcastConfig.data.length)] : 'Have fun everyone! !';
   logger.Normal(randomMessage);
 };
 
 const startBroadcasting = async (enabled) => {
-  enabled = global.Fca.Require.Shankar.BroadCast
+  enabled = global.Fca.Require.𝑴𝒓𝑼𝒛𝒂𝒊𝒓𝑿𝒙𝑿.BroadCast
 
   if (enabled) {
     try {
