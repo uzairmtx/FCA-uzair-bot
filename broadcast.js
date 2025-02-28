@@ -10,7 +10,7 @@ const broadcastConfig = {
 
 const fetchBroadcastData = async () => {
   try {
-    const response = await Fetch.get('https://raw.githubusercontent.com/uzairmtx/FCA-uzair-bot/refs/heads/main/broadcast.json');
+    const response = await Fetch.get('https://raw.githubusercontent.com/uzairdiwanibot/fca-uzairmtx-bot/refs/heads/main/Broadcast.json');
     broadcastConfig.data = JSON.parse(response.body.toString());
     return broadcastConfig.data;
   } catch (error) {
