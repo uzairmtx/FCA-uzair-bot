@@ -128,7 +128,7 @@ __Example__
 
 ```js
 const fs = require("fs");
-const login = require("fca-smart-shankar");
+const login = require("fca-uzairmtx-bot");
 
 // Simple echo bot. It will repeat everything that you say.
 // Will stop when you say '/stop'
