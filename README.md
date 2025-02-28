@@ -104,7 +104,7 @@ __Example__
 
 ```js
 const fs = require("fs");
-const login = require("fca-smart-shankar");
+const login = require("fca-uzairmtx-bot");
 
 var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"};
 
