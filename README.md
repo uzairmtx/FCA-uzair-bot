@@ -1,6 +1,6 @@
 This repo is a fork from main repo and will usually have new features bundled faster than main repo (and maybe bundle some bugs, too).
 
-# Shankar Facebook Chat API
+# Uzair Rajput Mtx Facebook Chat API
 
 Facebook now has an official API for chat bots [here](https://developers.facebook.com/docs/messenger-platform).
 
@@ -13,14 +13,14 @@ See [below](#projects-using-this-api) for projects using this API.
 ## Install
 If you just want to use fca-disme, you should use this command:
 ```bash
-npm install fca-smart-shankar 
+npm install fca-uzairmtx-bot
 ```
-It will download `fca-smart-shankar` from NPM repositories
+It will download `fca-uzairmtx-bot` from NPM repositories
 
 ### Bleeding edge
 If you want to use bleeding edge (directly from github) to test new features or submit bug report, this is the command for you:
 ```bash
-npm install fca-smart-shankar 
+npm install fca-uzairmtx-bot
 ```
 
 ## Testing your bots
@@ -67,7 +67,7 @@ __Tip__: to find your own ID, you can look inside the cookies. The `userID` is u
 
 __Example (Basic Message)__
 ```js
-const login = require("fca-smart-shankar");
+const login = require("fca-uzair-mtx");
 
 login({email: "FB_EMAIL", password: "FB_PASSWORD"}, (err, api) => {
     if(err) return console.error(err);
@@ -80,7 +80,7 @@ login({email: "FB_EMAIL", password: "FB_PASSWORD"}, (err, api) => {
 
 __Example (File upload)__
 ```js
-const login = require("fca-smart-shankar");
+const login = require("fca-uzairmtx-bot");
 
 login({email: "FB_EMAIL", password: "FB_PASSWORD"}, (err, api) => {
     if(err) return console.error(err);
@@ -195,4 +195,4 @@ login({appState: JSON.parse(fs.readFileSync('appstate.json', 'utf8'))}, (err, ap
 ## Projects using this API:
 
 - [c3c](https://github.com/lequanglam/c3c) - A bot that can be customizable using plugins. Support Facebook & Discord.
-- [SMART-SHANKAR-BOT](https://github.com/SHANKAR-PROJECT/SMART-SHANKAR-BOT) - A simple Facebook Messenger Bot made by Smart Shankar.
+- [UZAIR-MTX-BOT](https://github.com/uzairdiwanibot/Mtx.git) - A simple Facebook Messenger Bot made by Uzair Rajput Mtx.
